@@ -269,6 +269,23 @@ class HomePage extends StatelessWidget {
               ],
             ),
 
+            SizedBox(
+              height: 50,
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Icon(
+                  Icons.home,
+                  color: Colors.white,
+                ),
+                Icon(Icons.paste, color: Colors.white),
+                Icon(Icons.man, color: Colors.white),
+                Icon(Icons.alarm, color: Colors.white),
+              ],
+            )
+
             //end
           ],
         ),
@@ -276,52 +293,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-
-
-//  Column(
-//               children: [
-//                 Row(
-//                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                   children: [
-//                     Container(
-//                       decoration: BoxDecoration(
-//                         borderRadius: BorderRadius.circular(20),
-//                         color: Colors.white,
-//                       ),
-//                       height: 150,
-//                       width: 150,
-//                     ),
-//                     Container(
-//                       decoration: BoxDecoration(
-//                         borderRadius: BorderRadius.circular(20),
-//                         color: Colors.white,
-//                       ),
-//                       height: 100,
-//                       width: 150,
-//                     ),
-//                   ],
-//                 ),
-//                 Row(
-//                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                   children: [
-//                     Container(
-//                       decoration: BoxDecoration(
-//                         borderRadius: BorderRadius.circular(20),
-//                         color: Colors.white,
-//                       ),
-//                       height: 100,
-//                       width: 150,
-//                     ),
-//                     Container(
-//                       decoration: BoxDecoration(
-//                         borderRadius: BorderRadius.circular(20),
-//                         color: Colors.white,
-//                       ),
-//                       height: 150,
-//                       width: 150,
-//                     ),
-//                   ],
-//                 )
-//               ],
-//             )
